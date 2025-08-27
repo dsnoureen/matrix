@@ -11,6 +11,7 @@ int main()
             scanf("%d", &arr[i][j]);
         }
     }
+    printf("\nMatrix printing:\n");
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
@@ -19,5 +20,16 @@ int main()
         }
         printf("\n");
     }
+
+    printf("\nTranspose Matrix printing:\n");
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            printf("%d ", arr[j][i]);
+        }
+        printf("\n");
+    }
+
     return 0;
 }
