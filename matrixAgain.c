@@ -12,17 +12,16 @@ int main()
             scanf("%d", &arr[i][j]);
         }
     }
-
-    i = n - 1;
+    
     for (int j = 0; j < m; j++)
     {
-        printf("%d ", arr[i][j]);
+        printf("%d ", arr[n-1][j]);
     }
     printf("\n");
-    j = m - 1;
+   
     for (int i = 0; i < n; i++)
     {
-        printf("%d ", arr[i][j]);
+        printf("%d ", arr[i][m-1]);
     }
     return 0;
 }
