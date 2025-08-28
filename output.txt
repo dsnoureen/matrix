@@ -1,5 +1,5 @@
 Matrix printing:
-0 0 0 
-0 0 2 
-
-Ans: Not ZeroMatrix
+1 0 0 
+0 2 0 
+0 0 3 
+Diagonal Matrix
